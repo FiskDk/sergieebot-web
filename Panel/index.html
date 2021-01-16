@@ -3,15 +3,63 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>SergieeBot Control Panel</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/now-ui-kit.css">
     <link rel="icon" href="public/SergieeBot.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
           integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="public/stylesheets/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="assets/menuIcon.svg" width="20px" height="20px" style="max-width: none !important;">
+        </button>
+        <img style="border-radius:50%" class=".avatarimg" src=".//public/SergieeBot.png" width="50px">
+        <h5 style="padding-left:10px;padding-top:6px;padding-right: -5px;">SergieeBot Web Panel</h5>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Dashboard</a>
+                </li>
+            </ul>
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Documentation
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../commands.html">Commands</a>
+                    <!--
+                    <a class="dropdown-item" href="/tutorials">Tutorials</a>
+                    -->
+            </div>
+            <!--
+            <div class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+                  -->
+            </div>
+            
+            <!--
+    
+          
+          
+                <button class="btn login-btn btn-outline-accent my-2 my-sm-0" style="font-size: 10px !important;font-family: poppins !important;">LOGIN</button>
+         -->
+            </div>
+    </nav>
 <div id="languageNav" class="overlay">
     <a href="" class="closeBtn" onclick="closeNav()">&times;</a>
     <div id="overlay-content"></div>
@@ -78,4 +126,8 @@
 <script type="text/javascript" src="locales.js"></script>
 <script type="text/javascript" src="public/javascripts/main.js"></script>
 <script type="text/javascript" src="public/javascripts/panel.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="../js/now-ui-kit.min.js"></script>
 </html>
